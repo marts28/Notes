@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_fragment_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tb_fragment_note"
+        android:background="@null"
+        android:textSize="24sp"
+        tools:text = "Txet"
+        android:hint="@string/title_hint"
+        android:layout_marginHorizontal="16dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/et_note_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/et_note_title"
+        android:gravity="top"
+        android:background="@null"
+        android:hint="@string/content_himt"
+        android:layout_marginHorizontal="16dp"
+        tools:text="dhlsakjhdsajdhsdjhlahdfndknfkdnjks \n sdajkdhsa"/>
+
+</RelativeLayout>

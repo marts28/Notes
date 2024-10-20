@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="title_hint">Заголовок</string>
+    <string name="content_himt">Заметка</string>
+    <string name="dialog_title_delete">Потдверждение удаления</string>
+    <string name="dialog_message_delete">ВЫ уверены, что хотите удалить эту заметку</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="serarchview_toolbar_fragment_note_list_hint">Поиск заметки</string>
+    <string name="searchview_item_title">Поиск</string>
+    <string name="empty_note_list_message">Заметок не найдено</string>
+    <string name="loading_note_list_message">Загрузка заметок</string>
+    <string name="delete_note">Удалить заметку</string>
+    <string name="change_list_style">Смена стиля</string>
+    <string name="create_new_note">Создание новой заметки</string>
+</resources>

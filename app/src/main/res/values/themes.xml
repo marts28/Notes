@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Notes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="searchViewStyle">@style/FragmentNoteListSearchView</item>
+    </style>
+
+    <style name="Theme.Notes" parent="Base.Theme.Notes" />
+    
+    <style name="FragmentNoteListSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="queryHint">@string/serarchview_toolbar_fragment_note_list_hint</item>
+        <item name="iconifiedByDefault">false</item>
+        <item name="android:focusable">false</item>
+    </style>
+</resources>
